@@ -1,4 +1,4 @@
-#header{
+#header {
     width: 100%;
     height: 0.88rem;
     float: left;
@@ -6,7 +6,8 @@
     position: fixed;
     z-index: 9;
 }
-.hea_w{
+
+.hea_w {
     width: 7.5rem;
     height: 100%;
     margin: 0 auto;
@@ -14,25 +15,29 @@
     line-height: 0.44rem;
     border-bottom: 0.01rem solid #f2f2f2;
 }
-.hea_w .cuo .iconfont{
+
+.hea_w .cuo .iconfont {
     font-size: 0.36rem;
     display: block;
     color: #000000;
     float: left;
     padding: 0.29rem 0 0 0.24rem;
 }
-.hea_w .title{
+
+.hea_w .title {
     width: 0.92rem;
     height: 0.3rem;
     font-size: 0.36rem;
     letter-spacing: 0.11rem;
     font-family: 'GillSansMT-ExtraCondensedBold';
 }
-.hea_w .title span{
+
+.hea_w .title span {
     letter-spacing: 0.11rem;
     color: #ffcb3f;
 }
-.hea_w .set{
+
+.hea_w .set {
     width: 0.36rem;
     height: 0.08rem;
     float: right;
@@ -40,24 +45,40 @@
     display: block;
     padding-top: 0.4rem;
 }
-.hea_w .set .itm{
+
+.hea_w .set .itm {
     width: 0.08rem;
     height: 0.08rem;
     float: left;
     background: #000000;
     border-radius: 50%;
 }
-.hea_w .set .itm:nth-child(2){
-    margin:0  0.06rem;
+
+.hea_w .set .itm:nth-child(2) {
+    margin: 0 0.06rem;
 }
-.order{
+
+#box {
+    width: 7.5rem;
+    height: 13.34rem;
+    overflow: hidden;
+}
+
+#roll {
+    width: 7.5rem;
+    height: 20rem;
+    position: relative;
+}
+
+.order {
     margin-top: 0.88rem;
     width: 100%;
     height: 0.78rem;
     float: left;
-    background-color:#fff;
+    background-color: #fff;
 }
-.order_w{
+
+.order_w {
     width: 7.5rem;
     height: 100%;
     margin: 0 auto;
@@ -65,12 +86,14 @@
     border-bottom: 0.01rem solid #f2f2f2;
     line-height: 0.78rem;
 }
-.order_w .iconfont{
+
+.order_w .iconfont {
     font-size: 0.24rem;
     float: left;
     margin-left: 0.24rem;
 }
-.order_w span{
+
+.order_w span {
     font-size: 0.28rem;
     color: #000000;
     text-align: center;
@@ -78,57 +101,66 @@
     margin-left: 2.65rem;
 }
 
-.goods{
+.goods {
     width: 100%;
     height: 2.62rem;
     margin-top: 0.23rem;
     float: left;
 }
-.goods_w{
+
+.goods_w {
     width: 7.02rem;
     height: 100%;
     margin: 0 auto;
     position: relative;
-    background: #fff;            
-} 
-.goods_w a{
+    background: #fff;
+}
+
+.goods_w a {
     width: 1.86rem;
     height: 1.31rem;
     display: block;
     float: left;
 }
-.goods_w img{
+
+.goods_w img {
     width: 1.86rem;
     height: 1.31rem;
     margin: 0.52rem 0 0 0.2rem;
 }
-.goods_w .titl{
+
+.goods_w .titl {
     width: 5rem;
     height: 1.5rem;
     float: right;
     margin-top: 0.42rem;
     position: relative;
 }
-.goods_w .titl p{
-	font-size: 0.18rem;
-	line-height: 0.18rem;
+
+.goods_w .titl p {
+    font-size: 0.18rem;
+    line-height: 0.18rem;
     color: #000000;
-    margin-left: 0.2rem;;
+    margin-left: 0.2rem;
+    ;
     color: #3f3f3f;
     margin-top: 0.1rem;
 }
-.goods_w .titl p span{
-	font-size: 0.24rem;
-	color: #000000;
+
+.goods_w .titl p span {
+    font-size: 0.24rem;
+    color: #000000;
 }
-.goods_w .titl .fuk{
+
+.goods_w .titl .fuk {
     width: 1.17rem;
     height: 0.61rem;
     position: absolute;
     right: 0.32rem;
     bottom: 0.18rem;
 }
-.goods_w .qux{
+
+.goods_w .qux {
     width: 3.2rem;
     height: 0.44rem;
     display: block;
@@ -136,11 +168,13 @@
     right: 0.3rem;
     bottom: 0.23rem;
 }
-.goods_w .qux a:first-child{
+
+.goods_w .qux a:first-child {
     border: 0;
     color: #999;
 }
-.goods_w .qux a{
+
+.goods_w .qux a {
     width: 1.6rem;
     height: 0.44rem;
     float: left;
@@ -152,46 +186,51 @@
     font-size: 0.24rem;
     color: #ffcb3f;
 }
-.titl .fuk .pp{
+
+.titl .fuk .pp {
     width: 1.17rem;
-	height: 0.21rem;
-	font-size: 0.26rem;
+    height: 0.21rem;
+    font-size: 0.26rem;
     float: left;
-	line-height: 0.36rem;
-	color: #000000;
+    line-height: 0.36rem;
+    color: #000000;
 }
-.titl .fuk .pp span{
-	font-size: 0.18rem;
+
+.titl .fuk .pp span {
+    font-size: 0.18rem;
     color: #000000;
     float: right;
-	line-height: 0.45rem;
+    line-height: 0.45rem;
     opacity: 0.9;
     font-weight: normal;
     padding-right: 0.1rem;
 }
-.titl .fuk p{
+
+.titl .fuk p {
     width: 0.77rem;
     height: 0.24rem;
-	font-size: 0.24rem;
+    font-size: 0.24rem;
     color: #ffcb3f;
     float: right;
     font-weight: bold;
     margin-top: 0.60rem;
 }
-.titl .fuk .jiaoyi{
+
+.titl .fuk .jiaoyi {
     font-weight: normal;
     width: 1rem;
     color: #000000;
 }
 
-.tji_w{
+.tji_w {
     width: 7.5rem;
     height: 0.3rem;
     margin: 0 auto;
     float: left;
     margin-top: 0.61rem;
 }
-.tji_w span{
+
+.tji_w span {
     border-left: 0.02rem solid #ffcb3f;
     font-size: 0.3rem;
     color: #000;
@@ -200,25 +239,28 @@
     line-height: 0.3rem;
 }
 
-.tiren_w{
+.tiren_w {
     width: 7.5rem;
     float: left;
     overflow: hidden;
     height: 100%;
 }
-.read{
+
+.read {
     width: 100%;
     height: 5.1rem;
     float: left;
     margin-top: 0.31rem;
     overflow: auto;
 }
-.read_w{
+
+.read_w {
     width: 7.5rem;
     height: 100%;
     overflow: auto;
 }
-.read .rel{
+
+.read .rel {
     width: 3.1rem;
     height: 100%;
     float: left;
@@ -226,36 +268,41 @@
     position: relative;
     background: #fff;
 }
-.read .rel a img{
+
+.read .rel a img {
     width: 3.1rem;
     height: 2.91rem;
     display: block;
 
 }
-.eq{
+
+.eq {
     width: 0.27rem;
     height: 0.17rem;
     float: left;
     border-bottom: 0.01rem solid #000;
 }
- .read .rel .vios{
-	height: 0.24rem;
-	font-family: 'ArialNarrow';
-	font-size: 0.18rem;
+
+.read .rel .vios {
+    height: 0.24rem;
+    font-family: 'ArialNarrow';
+    font-size: 0.18rem;
     line-height: 0.20rem;
-	letter-spacing: 0.01rem;
+    letter-spacing: 0.01rem;
     color: #000000;
     margin-top: 0.28rem;
 }
-.sah{
+
+.sah {
     font-size: 0.20rem;
     color: #000;
     float: left;
 }
-.rel .xia{
+
+.rel .xia {
     width: 100%;
-	height: 0.21rem;
-	line-height: 0.2rem;
+    height: 0.21rem;
+    line-height: 0.2rem;
     color: #000000;
     float: left;
     position: absolute;
@@ -263,14 +310,15 @@
     font-size: 0.18rem;
     left: 0;
 }
-.rel .xia span{
+
+.rel .xia span {
     font-family: ArialNarrow;
     float: left;
-	font-size: 0.26rem;
+    font-size: 0.26rem;
     color: #000000;
 }
 
-.rel .xia button{
+.rel .xia button {
     width: 1.53rem;
     height: 0.44rem;
     float: right;
@@ -284,50 +332,58 @@
     position: relative;
     top: -0.1rem;
 }
-.rel .xia button .iconfont{
+
+.rel .xia button .iconfont {
     font-size: 0.16rem;
     color: #fff;
 }
-.kong{
+
+.kong {
     width: 100%;
     height: 1.5rem;
     float: left;
 }
+
 /* tab */
-.footer{
-    width:7.5rem;
-    height:0.98rem;
-    padding:0 0.24rem;
-    border-top:0.01rem solid #C2C2C2;
-    background:#FAFAFA;
+.footer {
+    width: 7.5rem;
+    height: 0.98rem;
+    padding: 0 0.24rem;
+    border-top: 0.01rem solid #C2C2C2;
+    background: #FAFAFA;
     box-sizing: border-box;
     position: fixed;
-    bottom:0;
-    left:0;
-    display:flex;
-    justify-content:space-between;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
 }
-.footer .box{
-    height:0.98rem;
-    width:1.3rem;
+
+.footer .box {
+    height: 0.98rem;
+    width: 1.3rem;
 }
-.footer .box a{
-    display:block;
-    width:100%;
-    height:100%;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
+
+.footer .box a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-.footer .box i{
-    font-size:0.4rem;
-    color:#040404; 
+
+.footer .box i {
+    font-size: 0.4rem;
+    color: #040404;
 }
-.footer .box .text{
-    font-size:0.2rem;
-    color:#040404; 
+
+.footer .box .text {
+    font-size: 0.2rem;
+    color: #040404;
 }
-body{
+
+body {
     background: #f4f4f4;
 }
