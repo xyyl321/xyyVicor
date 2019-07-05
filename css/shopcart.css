@@ -200,7 +200,7 @@ body {
 
 .Bigbox {
     width: 7.5rem;
-    height: 10.41rem;
+    /* height: 10.41rem; */
     padding: 0 0.24rem;
     box-sizing: border-box;
     margin-top: 0.29rem;
@@ -209,7 +209,7 @@ body {
 
 .Bigbox ul {
     width: 6.78rem;
-    height: 10.41rem;
+    /* height: 10.41rem; */
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -387,14 +387,16 @@ body {
 }
 
 #box {
-    margin-top: 0.88rem;
+    /* margin-top: 0.88rem; */
     width: 7.5rem;
     height: 10.58rem;
     overflow: hidden;
+    position: relative;
+    top:0.88rem;
+    left:0;
 }
 
 #roll {
     width: 7.5rem;
     height: auto;
-    position: relative;
 }

@@ -285,3 +285,17 @@ body{background:#fcfcfc;}
     color: #5d5d5d;
 
 }
+
+#roll{
+    width:100%;
+    height:12.46rem;
+    position:fixed;
+    top:0;
+    overflow:hidden;
+
+}
+#roll .rollBox{
+    width:100%;
+    height:12.46rem;
+    padding-bottom:0.1rem;
+}

@@ -182,6 +182,21 @@ body{background:#fcfcfc;}
     color:#333;  
 }
 /*右*/
+
+#roll{
+    width:5.04rem;
+    height:11.58rem;
+    position:fixed;
+    right:0.24rem;
+    top:1.76rem;
+    overflow:hidden;
+
+}
+#roll .rollBox{
+    width:100%;
+    height:auto;
+    padding-bottom:0.1rem;
+}
 .center .right{
     width:5.04rem;
   /*  height:9.50rem;*/
@@ -224,8 +239,9 @@ body{background:#fcfcfc;}
 .center .bottom{
     width:100%;
     height:auto;
-    padding:0 0 0 0.08rem;
-    box-sizing: border-box;
+    padding:0 0 0.88rem 0.08rem;
+    overflow: hidden;
+    /* box-sizing: border-box; */
  
    /* display:flex;
     justify-content: space-between;*/

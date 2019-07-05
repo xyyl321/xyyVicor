@@ -1,6 +1,20 @@
 window.onload = function () {
-    var myScroll = new IScroll("#box", {
+    //轮播
+    let mySwiper = new Swiper('.swiper-container', {
+        autoplay: {
+            autoplay: true,
+            disableOnInteraction: false
+        },
+        loop: true,
+        //轮播点
+        pagination: {
+            el: '.swiper-pagination',
+        },
+    })
+
+    //刷新
+    let myScroll = new IScroll('#roll', {
         probeType: 3
-        // 像素级的触发scroll滚动条事件
+
     });
 }
