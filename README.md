@@ -35,3 +35,6 @@
     收货地址addressGet
     个人信息myInfo
     设置set
+
+### 存在的问题
+1. 购物车的加减
